@@ -1,21 +1,5 @@
 body {
-	font-family: 'Single Day', cursive;
-	font-size: 30px;
-	color: skyblue;
-
-
-	
-	text-align: center;
-	background-image: url('');
-	background-image opacity: 0.2;
-	background-size: cover;
-	background-position: center;
-
-
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+	margin: 0 20px;
 }
 
 h1 {
@@ -43,6 +27,15 @@ button {
 
 }
 
+.about {
+	background color: skyblue;
+}
+
+.mydescription {
+	color: gray;
+	font-size: 20px;
+	margin: 30px 5px;
+}
 
 
 #survey {
@@ -54,7 +47,7 @@ button {
 
 
 input[type=text] {
-	width: 70%;
+	width: 30%;
 	border: 2px solid #aaa;
 	padding: 12px;
 	border-radius: 5px;
@@ -62,28 +55,9 @@ input[type=text] {
 
 }
 
-.container {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	justify-content: center;
-	margin: 25px;
-
+.mysurvey {
+	color: gray;
+	font-size: 20px;
+	margin: 30px 5px;
 }
 
-.card {
-	border: 1px solid skyblue;
-	margin: 20px;
-	padding: 20px;
-	width: 300px;
-	height: 300px;
-	
-
-}
-
-#card1 {
-	background-image: url('file:///Users/coolpoet/Desktop/sparta/studypie_webpath.png');  
-	background-position: center;
-	background-size: cover;
-
-}
