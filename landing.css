@@ -6,6 +6,10 @@ h1 {
 	color: skyblue;
 }
 
+p {
+	color: gray;
+	font-size: 20px;
+}
 
 
 ul {
@@ -17,13 +21,14 @@ button {
 	border: 0px solid skyblue; 
 	background-color: skyblue; 
 	color: white; 
-	font-style: italic;
+	font-style: bold;
 	padding: 5px;
 	border-radius: 5px;
 	width: 100px;
 	height: 40px;
 	font-size: 15px;
 	font-weight: bold;
+	margin: 15px;
 
 }
 
@@ -42,7 +47,8 @@ button {
 	margin: 10px;
 }
 
-#survey:hover {background: yellow;}
+#reco-btn:hover {background: navy;}
+#survey:hover {background: navy;}
 
 
 
