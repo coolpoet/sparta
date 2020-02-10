@@ -1,0 +1,43 @@
+
+   .carousel-wrap {
+    width: 900px;
+    margin: auto;
+  }
+
+  .input-wrap-all {
+    width: 900px;
+    margin: 30px auto;
+  }
+
+  .mytext {
+    width: 900px;
+    margin: 30px auto;
+    color: navy;
+    text-align: center;
+
+  }
+
+  .table {
+    width: 900px;
+    margin: 100px auto;
+  }
+
+
+
+for music in musics:
+  a_tag = music.select_one('td.info > a')
+  if a_tag is not None:
+    rank = music.select_one('td.number').text
+    title = music.select_one('a.title.ellipsis').text
+        artist = music.select_one('a.artist.ellipsis').text
+
+        doc = {
+               'rank': rank
+               'title':title.strip()
+               'artist':artist
+        }        
+        db.music.insert_one(doc)
+        print(doc)
+
+
+        
